@@ -4,19 +4,38 @@
 
 [![npm][npm-image]][npm-url] [![license][license-image]][license-url]
 
+![mocha-css](https://cloud.githubusercontent.com/assets/664177/20640621/7cc2fa32-b3e3-11e6-8db0-f927e67a2584.png)
+
+In the screenshot below the `h1` element doesn't have the original mocha.css
+style applied
+
+## Installation
+
 **NPM**
 
 ``` sh
 npm install --save-dev mocha-css
 ```
 
+## Usage
+
+Simply replace the `mocha.css` file you're importing with this one
+
+**Webpack**
+
+``` js
+// es6
+import 'mocha-css'
+// commonjs
+require('mocha-css')
+```
+
 **CDN**
 
 ``` html
+<link href="https://unpkg.com/mocha-css" rel="stylesheet" />
 ```
 
-
-[changelog-url]: CHANGELOG.md
 [license-image]: https://img.shields.io/npm/l/normalize.css.svg?style=flat-square
 [license-url]: LICENSE.md
 [npm-image]: https://img.shields.io/npm/v/mocha-css.svg?style=flat-square
