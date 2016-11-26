@@ -7,7 +7,18 @@
 ![mocha-css](https://cloud.githubusercontent.com/assets/664177/20640621/7cc2fa32-b3e3-11e6-8db0-f927e67a2584.png)
 
 In the screenshot below the `h1` element doesn't have the original mocha.css
-style applied
+style applied.
+
+You have to make sure to reset `font` and `margin` properties on your visual
+test container. eg: If I apply the class `test-dom-container` to all of them,
+I'll have to add this CSS snippet:
+
+``` css
+.test-dom-container {
+  font: initial;
+  margin: initial;
+}
+```
 
 ## Installation
 
