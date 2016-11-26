@@ -1,0 +1,26 @@
+{
+  "name": "mocha-css",
+  "version": "1.0.0",
+  "description": "A mocha stylesheet for the HTML reporter that let you append visual tests",
+  "main": "mocha.css",
+  "style": "mocha.css",
+  "files": [
+    "LICENSE.md",
+    "mocha.css"
+  ],
+  "scripts": {
+    "build": "stylus mocha.styl",
+    "test": "npm run lint",
+    "lint": "stylint mocha.styl"
+  },
+  "repository": {
+    "url": "https://github.com/posva/mocha-css",
+    "type": "git"
+  },
+  "author": "posva",
+  "license": "MIT",
+  "devDependencies": {
+    "stylint": "^1.5.7",
+    "stylus": "^0.54.5"
+  }
+}
