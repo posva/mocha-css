@@ -1,6 +1,6 @@
 {
   "name": "mocha-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A mocha stylesheet for the HTML reporter that let you append visual tests",
   "main": "mocha.css",
   "style": "mocha.css",
