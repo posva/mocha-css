@@ -2,7 +2,7 @@
 
 > A mocha stylesheet for the HTML reporter that let you append visual tests
 
-[![npm][npm-image]][npm-url] [![license][license-image]][license-url]
+[![CircleCI](https://circleci.com/gh/posva/mocha-css/tree/master.svg?style=shield)](https://circleci.com/gh/posva/mocha-css) [![npm][npm-image]][npm-url] [![license][license-image]][license-url]
 
 ![mocha-css](https://cloud.githubusercontent.com/assets/664177/20640621/7cc2fa32-b3e3-11e6-8db0-f927e67a2584.png)
 
