@@ -17,6 +17,17 @@
     "url": "https://github.com/posva/mocha-css",
     "type": "git"
   },
+  "keywords": [
+    "css",
+    "tests",
+    "tdd",
+    "bdd",
+    "visual",
+    "test",
+    "mocha",
+    "mocha.css",
+    "mocha-css"
+  ],
   "author": "posva",
   "license": "MIT",
   "devDependencies": {
