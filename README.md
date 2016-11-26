@@ -53,3 +53,13 @@ require('mocha-css')
 [npm-url]: https://www.npmjs.com/package/mocha-css
 [circleci-image]: https://circleci.com/gh/posva/mocha-css/tree/master.svg?style=shield
 [circleci-url]: https://circleci.com/gh/posva/mocha-css
+
+## What is visual testing?
+
+Visual testing consists in seeing what your tests are doing. This is useful when
+authoring a UI component library because you always want to check what your
+component looks like.
+
+### Resources
+
+- [Visual TDD and awesome documentation](http://toucantoco.com/front/2016/09/14/visual-tdd.html)
