@@ -10,7 +10,7 @@ In the screenshot below the `h1` element doesn't have the original mocha.css
 style applied.
 
 You have to make sure to reset the `font` property on your visual test
-container. eg: If I apply the class `test-dom-container` to all of them, You'll
+container. eg: If you apply the class `test-dom-container` to all of them, You'll
 have to add this CSS snippet:
 
 ``` css
@@ -38,6 +38,8 @@ Simply replace the `mocha.css` file you're importing with this one
 import 'mocha-css'
 // commonjs
 require('mocha-css')
+// with loader query
+import 'style-loader!css-loader!mocha-css'
 ```
 
 **CDN**
