@@ -31,7 +31,7 @@
   "author": "posva",
   "license": "MIT",
   "devDependencies": {
-    "stylint": "^1.5.7",
+    "stylint": "^1.5.9",
     "stylus": "^0.54.5"
   }
 }
